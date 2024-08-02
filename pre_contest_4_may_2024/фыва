@@ -1,0 +1,15 @@
+6 10 5
+слова алфавита:  berq barq bbra abra abaa abac
+надо получить:  abac abra abaa bbra berq abaa barq berq berq barq
+
+слово / разница с предыдущим / текущая сумма
+abac   0     5
+abra   2     7
+abaa   1     8
+bbra   2     10
+berq   inf   15
+abaa   inf   20
+barq   inf   25
+berq   1     26
+berq   0     26
+barq   1     27
